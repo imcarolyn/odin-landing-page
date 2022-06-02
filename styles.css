@@ -2,9 +2,43 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body {
+
+.main-content {
+  flex-shrink: 0;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
+}
+
+.tri-fold {
+  display: flex;
+}
+
+.filler {
+  flex: auto;
+}
+
+.top-band {
+  height: 381px;
+  background-color: #1F2937;
+}
+
+.second-band {
+  height: 375px;
+}
+
+.third-band {
+  height: 332px;
+  background-color: #E5E7EB;
+}
+
+.fourth-band {
+  height: 239px;
+}
+
+.fifth-band {
+  height: 52px;
+  background-color: #1F2937;
 }
 
 h1 {
@@ -15,7 +49,6 @@ h1 {
 
 header,
 footer {
-  flex: 1;
   display: flex;
   color: #F9FAF8;
   background-color: #1F2937;
@@ -42,58 +75,116 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 50px;
+  gap: 20px;
+}
+
+.hero {
+  padding: 0;
 }
 
 .welcome img{
   background-color: grey;
-  width: 600px;
+  height: 200px;
+  width: 800px;
 }
 
 h2 {
   color: #F9FAF8;
   font-size: 48px;
   font-weight: 700;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
+
 .some-random { 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin: 20px 0px 40px;
+}
+
+.some-random h3 {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 0;
+  margin-bottom: 40px;
 }
 
 .info {
   display: flex;
   justify-content: space-evenly;
-  gap: 20px;
+  gap: 40px;
 }
-.card{
+
+.card {
   display: flex;
   flex-direction: column;
-  width: 100px;
+  align-items: center;
+  width: 150px;
   text-align: center;
   color: #1F2937;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 .card img {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #3882F6;
-  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+  margin-bottom: -10px;
 }
 
 .quote {
   flex: 1;
   background-color: #E5E7EB;
   color: #1F2937;
-  font-size: 36px;
+  font-size: 32px;
   font-style: italic;
   font-weight: 200;
   padding: 40px 100px;
 }
 
+.quote .attribution {
+  font-size: 16px;
+  text-align: end;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.call-to-action {
+  margin: 40px 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 48px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
+
+.call-to-action h5 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  padding: 0;
+}
+
+.call-to-action .container p {
+  color: #E5E7EB;
+}
+
+.call-to-action button {
+  flex-shrink: 0;
+  border: solid 2px #F9FAF8;
+  margin: 16px;
+  padding: 10px 24px;
+}
+
 footer {
+  height: 52px;
   justify-content: center;
+  color:#E5E7EB;
 }
 
 button {
