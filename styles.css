@@ -34,7 +34,7 @@ body {
 }
 
 .third-band {
-  height: 332px;
+  height: 369px;
   background-color: #E5E7EB;
 }
 
@@ -155,6 +155,13 @@ h2 strong {
   width: 150px;
   height: 150px;
   border: 3px solid #610f7fff;
+  box-shadow: 
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 21px #ea00d9,
+  0 0 25px #ea00d9,
+  0 0 45px #ea00d9,
+  0 0 55px #610f7fff;
   border-radius: 10px;
   margin-bottom: -10px;
 }
@@ -183,7 +190,7 @@ h2 strong {
   justify-content: space-between;
   padding: 40px 48px;
   color: #ea00d9;
-  background-color: #9c528bff;
+  background-color: #0abdc6;
 }
 
 .call-to-action h5 {
@@ -199,7 +206,7 @@ h2 strong {
 
 .call-to-action button {
   flex-shrink: 0;
-  border: solid 2px #ea00d9;
+  border: solid 2px #711c91;
   margin: 16px;
   padding: 10px 24px;
 }
@@ -214,7 +221,9 @@ button {
   color: #ea00d9;
   font-size: 16px;
   font-weight: 600;
-  background-color: #9c528bff;
+  text-shadow:
+  0 0 2px #610f7fff;
+  background-color: #711c91;
   border-radius: 10%;
   padding: 10px 14px;
   border-style: none;
