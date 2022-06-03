@@ -2,6 +2,12 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+  background-color: #01baefff;
+  color: #610f7fff;
+  margin: 0px;
+  padding: 0px;
+}
 
 .main-content {
   flex-shrink: 0;
@@ -20,7 +26,7 @@
 
 .top-band {
   height: 381px;
-  background-color: hotpink;
+  background-color: #2f0147ff;
 }
 
 .second-band {
@@ -38,20 +44,20 @@
 
 .fifth-band {
   height: 52px;
-  background-color: hotpink;
+  background-color: #2f0147ff;;
 }
 
 h1 {
   font-size: 24px;
-  color: #F9FAF8;
+  color: #fac8cdff;
   padding-left: 20px;
 }
 
 header,
 footer {
   display: flex;
-  color: #F9FAF8;
-  background-color: hotpink;
+  color: #fac8cdff;
+  background-color: #2f0147ff;;
 }
 
 header {
@@ -67,14 +73,14 @@ nav {
 }
 
 .welcome {
-  background-color: hotpink;
+  background-color: #2f0147ff;;
   color: #E5E7EB;
   font-size: 16px;
   font-weight: 200;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 50px 20px;
   gap: 20px;
 }
 
@@ -89,7 +95,7 @@ nav {
 }
 
 h2 {
-  color: #F9FAF8;
+  color: #fac8cdff;
   font-size: 48px;
   font-weight: 700;
   margin-top: -10px;
@@ -105,6 +111,7 @@ h2 {
 }
 
 .some-random h3 {
+  color: #610f7fff;
   font-size: 24px;
   font-weight: 800;
   padding: 0;
@@ -123,7 +130,7 @@ h2 {
   align-items: center;
   width: 150px;
   text-align: center;
-  color: hotpink;
+  color: #2f0147ff;;
   font-size: 14px;
   font-weight: 400;
 }
@@ -131,7 +138,7 @@ h2 {
 .card img {
   width: 150px;
   height: 150px;
-  border: 3px solid #3882F6;
+  border: 3px solid #610f7fff;
   border-radius: 10px;
   margin-bottom: -10px;
 }
@@ -139,7 +146,7 @@ h2 {
 .quote {
   flex: 1;
   background-color: #E5E7EB;
-  color: hotpink;
+  color: #2f0147ff;
   font-size: 32px;
   font-style: italic;
   font-weight: 200;
@@ -159,8 +166,8 @@ h2 {
   display: flex;
   justify-content: space-between;
   padding: 40px 48px;
-  color: #F9FAF8;
-  background-color: #3882F6;
+  color: #fac8cdff;
+  background-color: #9c528bff;
 }
 
 .call-to-action h5 {
@@ -176,7 +183,7 @@ h2 {
 
 .call-to-action button {
   flex-shrink: 0;
-  border: solid 2px #F9FAF8;
+  border: solid 2px #fac8cdff;
   margin: 16px;
   padding: 10px 24px;
 }
@@ -184,14 +191,14 @@ h2 {
 footer {
   height: 52px;
   justify-content: center;
-  color:#E5E7EB;
+  color: #fac8cdff;
 }
 
 button {
-  color: #F9FAF8;
+  color: #fac8cdff;
   font-size: 16px;
   font-weight: 600;
-  background-color: #3882F6;
+  background-color: #9c528bff;
   border-radius: 10%;
   padding: 10px 14px;
   border-style: none;
@@ -201,5 +208,5 @@ button {
 a, a:visited, a:hover, a:active {
   text-decoration: none;
   font-weight: 300;
-  color: #E5E7EB;
+  color: #fac8cdff;
 }
