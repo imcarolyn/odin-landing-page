@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #01baefff;
+  background-color: #133e7c;
   color: #610f7fff;
   margin: 0px;
   padding: 0px;
@@ -26,7 +26,7 @@ body {
 
 .top-band {
   height: 381px;
-  background-color: #2f0147ff;
+  background-color: #091833;
 }
 
 .second-band {
@@ -44,20 +44,20 @@ body {
 
 .fifth-band {
   height: 52px;
-  background-color: #2f0147ff;;
+  background-color: #091833;;
 }
 
 h1 {
   font-size: 24px;
-  color: #fac8cdff;
+  color: #ea00d9;
   padding-left: 20px;
 }
 
 header,
 footer {
   display: flex;
-  color: #fac8cdff;
-  background-color: #2f0147ff;;
+  color: #ea00d9;
+  background-color: #091833;;
 }
 
 header {
@@ -73,7 +73,7 @@ nav {
 }
 
 .welcome {
-  background-color: #2f0147ff;;
+  background-color: #091833;;
   color: #E5E7EB;
   font-size: 16px;
   font-weight: 200;
@@ -95,12 +95,28 @@ nav {
 }
 
 h2 {
-  color: #fac8cdff;
+  color: #ea00d9;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 21px #ea00d9,
+    0 0 25px #ea00d9,
+    0 0 45px #ea00d9,
+    0 0 55px #ea00d9;
   font-size: 48px;
   font-weight: 700;
   margin-top: -10px;
   margin-bottom: -10px;
 }
+
+/* I don't actually like this but it's cool
+h2 strong {
+  display: inline-block;
+  text-transform: uppercase;
+  transform: rotate(-5deg)
+  skew(-5deg);
+}
+*/
 
 .some-random { 
   display: flex;
@@ -111,7 +127,7 @@ h2 {
 }
 
 .some-random h3 {
-  color: #610f7fff;
+  color: #0abdc6;
   font-size: 24px;
   font-weight: 800;
   padding: 0;
@@ -130,7 +146,7 @@ h2 {
   align-items: center;
   width: 150px;
   text-align: center;
-  color: #2f0147ff;;
+  color: #0abdc6;
   font-size: 14px;
   font-weight: 400;
 }
@@ -146,7 +162,7 @@ h2 {
 .quote {
   flex: 1;
   background-color: #E5E7EB;
-  color: #2f0147ff;
+  color: ##091833;
   font-size: 32px;
   font-style: italic;
   font-weight: 200;
@@ -166,7 +182,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   padding: 40px 48px;
-  color: #fac8cdff;
+  color: #ea00d9;
   background-color: #9c528bff;
 }
 
@@ -183,7 +199,7 @@ h2 {
 
 .call-to-action button {
   flex-shrink: 0;
-  border: solid 2px #fac8cdff;
+  border: solid 2px #ea00d9;
   margin: 16px;
   padding: 10px 24px;
 }
@@ -191,11 +207,11 @@ h2 {
 footer {
   height: 52px;
   justify-content: center;
-  color: #fac8cdff;
+  color: #ea00d9;
 }
 
 button {
-  color: #fac8cdff;
+  color: #ea00d9;
   font-size: 16px;
   font-weight: 600;
   background-color: #9c528bff;
@@ -208,5 +224,12 @@ button {
 a, a:visited, a:hover, a:active {
   text-decoration: none;
   font-weight: 300;
-  color: #fac8cdff;
+  color: #ea00d9;
 }
+
+
+/* color palettes to play with
+  colors bold: ##091833, #ea00d9, #9c528bff, #610f7fff, #01baefff
+  cyberpunk: #711c91, #ea00d9, #0abdc6, #133e7c, #091833
+
+  */
